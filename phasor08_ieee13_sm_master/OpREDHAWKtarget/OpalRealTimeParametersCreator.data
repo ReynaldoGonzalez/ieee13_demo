@@ -1,0 +1,216 @@
+Sm_master/Solver/Time-step (seconds)
+/
+
+1
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/Switch/Threshold
+/
+
+2
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/const 1/Value
+/
+
+3
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/const 2/Value
+/
+
+4
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/timedial/Gain
+/
+
+5
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/const 1 /Value
+/
+
+6
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/Delay To avoid algebraic loop/InitialCondition
+/
+
+13
+F64
+1
+Sm_master/Solver/Number of partitions
+/
+
+19
+F64
+1
+Sm_master/Solver/C-API component folder
+/
+
+21
+F64
+4
+Sm_master/Solver/Prependable CAPI String
+/
+
+24
+F64
+9
+Sm_master/Solver/Prependable FMU String
+/
+
+26
+F64
+8
+Sm_master/Solver/Max number of NR iterations
+/
+
+36
+F64
+1
+Sm_master/Solver/Power mismatch (max p.u.)
+/
+
+38
+F64
+1
+Sm_master/Solver/ 1
+/
+
+40
+F64
+1
+Sm_master/Solver/ 2
+/
+
+42
+F64
+1
+Sm_master/Solver/ 3
+/
+
+44
+F64
+1
+Sm_master/Solver/Optimize number of threads (Windows only)
+/
+
+46
+F64
+1
+Sm_master/Solver/Use post-init script
+/
+
+48
+F64
+1
+Sm_master/Solver/Turn on performance log
+/
+
+51
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/0/Value
+/
+
+55
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/1/Value
+/
+
+56
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/Zero/Value
+/
+
+57
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/One/Value
+/
+
+58
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator/gainval
+/
+
+59
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator/UpperSaturationLimit
+/
+
+60
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator/LowerSaturationLimit
+/
+
+61
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/const/Value
+/
+
+62
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/abc_coff/Value
+/
+
+63
+F64
+3
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Constant/Value
+/
+
+64
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Constant1/Value
+/
+
+65
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/sw_Q1/Threshold
+/
+
+66
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/Constant/Value
+/
+
+67
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/To Hold/InitialCondition
+/
+
+68
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/Detected/Threshold
+/
+
+69
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Switch1/Threshold
+/
+
+70
+I8
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Switch/Threshold
+/
+
+71
+I8
+1

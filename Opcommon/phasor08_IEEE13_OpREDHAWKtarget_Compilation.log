@@ -1,0 +1,235 @@
+
+-------------------- Starting compilation --------------------
+Start at : Wednesday, January 25, 2023, 01:03:00
+
+The current RT-LAB version is:  v2021.3.4.320
+The current model is:           C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_IEEE13.mdl
+The current host platform is:   Windows
+The current target platform is: OPAL-RT Linux (x86-based)
+The current compiler is:        Automatic
+The target OS version is:       Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+Separating model because C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_IEEE13.mdl has changed.
+Preparing original model for code separation and generation...
+The current Matlab version is:  v9.9 (64 Bit) (R2020B)
+
+
+Warning: "LocalBlockOutputs" parameter is reset to "off"
+Warning: "BlockReduction" is set to "on". Some blocks could have been removed.
+[postReset] [OpIRTS] Removing simulation
+[postReset] [OpIRTS] Simulation doesn't exist
+[postReset] [OpIRTS] Removing simulation
+[postReset] [OpIRTS] Simulation doesn't exist
+RtlabInfo not loaded
+Separating RT-LAB model (number of RT subsystems = 1, console detected).
+Separating RT-LAB subsystem 'Sm_master'.
+Separating RT-LAB subsystem 'sc_console'.
+
+Model preparation and separation duration : 00h:00m:55s
+-------------------- Completed successfully --------------------
+
+Generating model because C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\Opcommon\phasor08_ieee13_1_sm_master.mdl has changed.
+
+-------------------- Generating C code --------------------
+
+Using System Target File (TLC file) : rtlab_rtmodel.tlc...
+
+Using Template Makefile (TMF file) : rtlab_rtmodel.tmf...
+
+-------------------- Generating phasor08_ieee13_1_sm_master C code --------------------
+[postReset] [OpIRTS] Removing simulation
+[postReset] [OpIRTS] Simulation doesn't exist
+[postReset] [OpIRTS] Removing simulation
+[postReset] [OpIRTS] Simulation doesn't exist
+Calling RTW Make Command make_rtw...
+### Starting build procedure for: phasor08_ieee13_1_sm_master
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_1_sm_master_rtlab
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+[postReset] [phasor08_ieee13_1_sm_master] Removing simulation
+[postReset] [phasor08_ieee13_1_sm_master] Simulation doesn't exist
+EPHASOR_THREADS is not set -> ePHASORsim can use 1 thread(s)
+Powersystem is not partitioned
+
+### Invoking Target Language Compiler on phasor08_ieee13_1_sm_master.rtw
+### Using System Target File: C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tlc
+### Loading TLC function libraries
+......
+### Generating TLC interface API for custom data
+.
+### Initial pass through model to cache user defined code
+..
+### TLC Scope icon is not supported by RT-LAB.
+..
+### Caching model source code
+...............................................................................
+............................
+    ### Writing header file phasor08_ieee13_1_sm_master_types.h
+    ### Writing source file phasor08_ieee13_1_sm_master.c
+    ### Writing header file phasor08_ieee13_1_sm_master_private.h
+.
+    ### Writing header file phasor08_ieee13_1_sm_master.h
+    ### Writing header file rtwtypes.h
+    ### Writing header file builtin_typeid_types.h
+    ### Writing header file multiword_types.h
+    ### Writing header file zero_crossing_types.h
+    ### Writing header file rtGetInf.h
+.
+    ### Writing source file rtGetInf.c
+    ### Writing header file rtGetNaN.h
+    ### Writing source file rtGetNaN.c
+    ### Writing header file rt_nonfinite.h
+    ### Writing source file rt_nonfinite.c
+    ### Writing header file rtmodel.h
+    ### Writing source file phasor08_ieee13_1_sm_master_data.c
+.
+    ### Writing header file rt_defines.h
+### TLC code generation complete.
+Version 9.4 (R2020b) 29-Jul-2020
+### Creating model mapping file phasor08_ieee13_1_sm_master.map using opal_map_file.tlc
+.............................................................................
+### Processing Template Makefile: C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf
+[Warning: Found legacy make variables
+|>SHARED_SRC<|, |>SHARED_SRC_DIR<| in the
+template makefile
+C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf.
+The variables are no longer required. You can
+remove the variables.] 
+### Created makefile C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_1_sm_master_rtlab\phasor08_ieee13_1_sm_master.mk
+### Successful completion of code generation for: phasor08_ieee13_1_sm_master
+### Simulink cache artifacts for 'phasor08_ieee13_1_sm_master' were created in 'C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_1_sm_master.slxc'.
+
+Build Summary
+
+Top model targets built:
+
+Model                        Action          Rebuild Reason                   
+==============================================================================
+phasor08_ieee13_1_sm_master  Code generated  Generated code was out of date.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 0m 19.619s
+
+
+phasor08_ieee13_1_sm_master : Generating C code duration : 00h:00m:28s
+Generating C code total duration : 00h:00m:28s
+
+-------------------- Completed successfully --------------------
+
+-------------------- Creating the parameter database --------------------
+Parameter(s) with more than 1000 values will be disabled. 
+Use PARAM_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+Parameter database creation duration: 00h:00m:00s
+-------------------- Parameter database created successfully --------------------
+
+-------------------- Creating the signals database --------------------
+Signal(s) with more than 1000 values will be disabled.
+Use SIGNALS_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+
+Signal database creation duration: 00h:00m:00s
+-------------------- Signal database created successfully --------------------
+Generating simulation data...
+Data generated in 00h:00m:00s
+
+Closing Matlab... OK.
+Creating DataLoggers...
+ - Sm_master... OK
+Updating dependencies... OK.
+Compiling model because C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c has changed.
+
+-------------------- Validating sources files --------------------------
+
+-------------------- Done validating source files ----------------------
+
+
+
+-------------------- Transferring the generated C code --------------------
+
+Connecting to 10.3.13.48 ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\2021.3.4\Simulink/rtw/c/common/linux32.opt ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\2021.3.4\Simulink/rtw/c/common/posix.rules ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\settings.json (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master*.c (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGet*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGet*.c (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.mk (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_*.c (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\zero_crossing_types*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\builtin_typeid_types*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\multiword_types*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\rtwtypes.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\rtmodel.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\drive_phasor08_ieee13_1_sm_master*.c (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\drive_phasor08_ieee13_1_sm_master*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\Opal*.c (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\OpREDHAWKtarget\ssc_ml_fun*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\slprj\rtlab_rtmodel\_sharedutils\*.c (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\slprj\rtlab_rtmodel\_sharedutils\*.h (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_ieee13_sm_master\slprj\rtlab_rtmodel\_sharedutils\*.mk (Sm_master) ... OK.
+
+Transferring common RT-LAB files:
+Transferring in ascii: C:\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\model_main.c (Sm_master) ... OK.
+
+Transferring user extra files:
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_IEEE13_block.opal (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_IEEE13_solver.opal (Sm_master) ... OK.
+Transferring in ascii: C:\Users\xjk374\OPAL-RT\RT-LABv2021.3_Workspace\IEEE13_Demo\models\phasor08_IEEE13\phasor08_IEEE13_pinout.opal (Sm_master) ... OK.
+
+File transfer duration : 00h:00m:00s
+-------------------- Completed successfully --------------------
+
+-------------------- Building the generated C code --------------------
+
+Executing script /usr/opalrt/v2021.3.4.320/common/python/rtlab/global/target_precompile.py ... done
+Removing relative includes from ./../phasor08_ieee13_sm_master/model_main.c ...
+Done
+Executing script /usr/opalrt/v2021.3.4.320/common/python/rtlab/global/target_subsys_precompile.py ... done
+
+-------------------- Building phasor08_ieee13_1_sm_master --------------------
+
+rm -f phasor08_ieee13_1_sm_master
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  model_main.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  phasor08_ieee13_1_sm_master.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  phasor08_ieee13_1_sm_master_data.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  phasor08_ieee13_1_sm_master_offsets.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  rtGetInf.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  rtGetNaN.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.9/rtw/c/src/rt_logging.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  rt_nonfinite.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.9/rtw/c/src/rt_printf.c
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=phasor08_ieee13_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=0 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2020B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.9/simulink/include -I/usr/matlab/v9.9/extern/include -I/usr/matlab/v9.9/rtw/c/src -I/usr/matlab/v9.9/rtw/c/src/matrixmath  -I/usr/matlab/v9.9/toolbox/simscape/include/drive -I/usr/matlab/v9.9/toolbox/simscape/include/mech -I/usr/matlab/v9.9/toolbox/simscape/include/foundation -I/usr/matlab/v9.9/toolbox/simscape/include/math -I/usr/matlab/v9.9/toolbox/simscape/include/lang -I/usr/matlab/v9.9/toolbox/simscape/include/external -I/usr/matlab/v9.9/toolbox/simscape/include/network_engine -I/usr/matlab/v9.9/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.9/toolbox/dspblks/include -I/usr/matlab/v9.9/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.9/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.9/toolbox/simscape/include/utils -I/usr/matlab/v9.9/toolbox/simscape/include/pm_math -I/usr/opalrt/v2021.3.4.320/common/include -I/usr/opalrt/v2021.3.4.320/common/include_target -I/usr/opalrt/v2021.3.4.320/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  /usr/matlab/v9.9/rtw/c/src/rt_sim.c
+### Linking ...
+opicpc  -Wl,-rpath='/usr/opalrt/v2021.3.4.320/common/bin' -Wl,'-rpath=/usr/opalrt/v2021.3.4.320/common/bin/x32' -Wl,-rpath='/opt/intel/composerxe/lib/ia32' -Wl,-rpath='/opt/intel/Compiler/11.1/072/lib/ia32' -Wl,-rpath='/opt/intel/Compiler/11.1/056/lib/ia32' -diag-disable remark -L. -L/usr/opalrt/v2021.3.4.320/RT-LAB/lib -L/usr/opalrt/v2021.3.4.320/common/lib -L/usr/opalrt/v2021.3.4.320/common/lib/redhawk -L/usr/opalrt/v2021.3.4.320/common/bin -L/usr/opalrt/v2021.3.4.320/common/bin/x32 -L/usr/opalrt/externals/lib    -o phasor08_ieee13_1_sm_master model_main.o phasor08_ieee13_1_sm_master.o phasor08_ieee13_1_sm_master_data.o phasor08_ieee13_1_sm_master_offsets.o rtGetInf.o rtGetNaN.o rt_logging.o rt_nonfinite.o rt_printf.o rt_sim.o      -lOpalSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib -lOpIRTS_RT-2020b -lOpalSfunR2020B -lOpalR2020B -lBlocksRT-2020b -ldspR2020B -lsimscapeR2020B -lSimulinkRT-2020b -lOpalRTER2020B -lOpalCore -lOpalCore -lLicenseLib -lSimulink -lSimulationUtilities -lInfrastructure  -lNetwork -lKLU -lNumeric -lFramework -lSystem -lMatio -luuid -lpthread -lOpalSimCore -lSimCoreLib -lSyncExchangerLib -lConnectionLib -lConnectionFactoryLib -lOpalHttpLicenseRequest -lRapidJSON_Wrapper -lOpalUtils -lpthread -lm -ldl -lutil -lrt      /usr/matlab/v9.9/rtw/c/libsrc/rtwlibr_redhawk.a 
+chmod a+x phasor08_ieee13_1_sm_master
+### Created executable: phasor08_ieee13_1_sm_master
+
+phasor08_ieee13_1_sm_master : Building subsystem duration : 00h:00m:02s
+
+Building model total duration : 00h:00m:02s
+-------------------- Completed successfully --------------------
+
+-------------------- Transferring the built model --------------------
+Connecting to 10.3.13.48 ... OK.
+Transferring in binary mode /home/rr178228ip01/c/users/xjk374/opal-rt/rt-labv2021.3_workspace/ieee13_demo/models/phasor08_ieee13/phasor08_ieee13_sm_master/phasor08_ieee13_1_sm_master ... OK.
+Transferring in ascii mode /home/rr178228ip01/c/users/xjk374/opal-rt/rt-labv2021.3_workspace/ieee13_demo/models/phasor08_ieee13/compilation_target_report.xml ... OK.
+
+File transfer duration : 00h:00m:01s
+-------------------- Completed successfully --------------------
+
+End at : Wednesday, January 25, 2023, 01:04:54
+
+Compilation duration : 00h:01m:54s
+
+Updating status for next build...OK

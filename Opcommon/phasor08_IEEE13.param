@@ -1,0 +1,44 @@
+[General]
+ATT_VERSION=1
+[Size]
+nbParameters=205
+nbValues=205
+nbVariables=0
+nbParamsVar=0
+[Parameter]
+0=phasor08_IEEE13/Sm_master/Solver|Time-step (seconds)| |Scalar|1|1|1|0.01|1|1|1:1|
+1=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/Switch|Threshold| |RVector|1|12|2|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1000.0|1|12|1:416:67|
+13=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/const 1|Value| |RVector|1|12|3|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|1|12|1:416:35|
+25=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/const 2|Value| |Scalar|1|1|4|0.0|1|1|1:416:38|
+26=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/timedial|Gain| |RVector|1|12|5|0.05|0.05|0.05|0.05|0.05|0.05|0.05|0.05|0.05|0.05|0.05|0.05|1|12|1:416:40|
+38=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/const 1 |Value| |RVector|1|12|6|0.5|0.5|0.5|0.5|0.5|0.5|0.5|0.5|0.5|0.5|0.5|0.5|1|12|1:416:36|
+50=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/Delay To avoid algebraic loop|InitialCondition| |Scalar|1|1|13|0.0|1|1|1:416:45|
+51=phasor08_IEEE13/Sm_master/Solver|| |RVector|1|19|17|112.0|104.0|97.0|115.0|111.0|114.0|48.0|56.0|95.0|73.0|69.0|69.0|69.0|49.0|51.0|46.0|120.0|108.0|115.0|1|19|1:1|
+70=phasor08_IEEE13/Sm_master/Solver|Number of partitions| |Scalar|1|1|19|1.0|1|1|1:1|
+71=phasor08_IEEE13/Sm_master/Solver|C-API component folder| |RVector|1|4|21|67.0|65.0|80.0|73.0|1|4|1:1|
+75=phasor08_IEEE13/Sm_master/Solver|Prependable CAPI String| |RVector|1|9|24|99.0|97.0|112.0|105.0|99.0|111.0|109.0|112.0|95.0|1|9|1:1|
+84=phasor08_IEEE13/Sm_master/Solver|Prependable FMU String| |RVector|1|8|26|102.0|109.0|117.0|99.0|111.0|109.0|112.0|95.0|1|8|1:1|
+92=phasor08_IEEE13/Sm_master/Solver|Max number of NR iterations| |Scalar|1|1|36|100.0|1|1|1:1|
+93=phasor08_IEEE13/Sm_master/Solver|Power mismatch (max p.u.)| |Scalar|1|1|38|1.0E-6|1|1|1:1|
+94=phasor08_IEEE13/Sm_master/Solver| 1| |Scalar|1|1|40|0.0|1|1|1:1|
+95=phasor08_IEEE13/Sm_master/Solver| 2| |Scalar|1|1|42|0.0|1|1|1:1|
+96=phasor08_IEEE13/Sm_master/Solver| 3| |Scalar|1|1|44|0.0|1|1|1:1|
+97=phasor08_IEEE13/Sm_master/Solver|Optimize number of threads (Windows only)| |Scalar|1|1|46|0.0|1|1|1:1|
+98=phasor08_IEEE13/Sm_master/Solver|Use post-init script| |Scalar|1|1|48|0.0|1|1|1:1|
+99=phasor08_IEEE13/Sm_master/Solver|Turn on performance log| |Scalar|1|1|51|0.0|1|1|1:1|
+100=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/0|Value| |RVector|1|12|55|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|1|12|1:416:8|
+112=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/1|Value| |RVector|1|12|56|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1|12|1:416:9|
+124=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/Zero|Value| |RVector|1|12|57|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|1|12|1:416:69|
+136=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/One|Value| |RVector|1|12|58|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1|12|1:416:51|
+148=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator|gainval| |Scalar|1|1|59|0.01|1|1|1:416:11|
+149=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator|UpperSaturationLimit| |Scalar|1|1|60|1.0E+6|1|1|1:416:11|
+150=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator|LowerSaturationLimit| |Scalar|1|1|61|0.0|1|1|1:416:11|
+151=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/const|Value| |RVector|1|12|62|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1|12|1:416:34|
+163=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/abc_coff|Value| |RVector|1|3|63|0.0|0.14|0.02|1|3|1:416:73|
+166=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Constant|Value| |RVector|1|12|64|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1|12|1:416:22|
+178=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Constant1|Value| |RVector|1|12|65|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|0.0|1|12|1:416:23|
+190=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/51PH/sw_Q1|Threshold| |Scalar|1|1|66|1.0|1|1|1:416:39|
+191=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/Constant|Value| |RVector|1|12|67|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1.0|1|12|1:416:55|
+203=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/To Hold|InitialCondition| |Scalar|1|1|68|0.0|1|1|1:416:58|
+204=phasor08_IEEE13/Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/Detected|Threshold| |Scalar|1|1|69|0.0|1|1|1:416:56|
+[Variable]

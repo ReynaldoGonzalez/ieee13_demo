@@ -1,0 +1,12 @@
+2023-1-25 8h47m7s:KMP_AFFINITY=explicit,proclist=[2-2],verbose
+2023-1-25 8h47m7s:EPHASOR_THREADS is not set -> ePHASORsim can use 1 thread(s). Using default cores configuration [2-2]
+2023-1-25 8h47m7s:Powersystem is not partitioned
+2023-1-25 9h41m6s:KMP_AFFINITY=explicit,proclist=[2-2],verbose
+2023-1-25 9h41m6s:EPHASOR_THREADS is not set -> ePHASORsim can use 1 thread(s). Using default cores configuration [2-2]
+2023-1-25 9h41m6s:Powersystem is not partitioned
+2023-1-25 9h56m6s:KMP_AFFINITY=explicit,proclist=[2-2],verbose
+2023-1-25 9h56m6s:EPHASOR_THREADS is not set -> ePHASORsim can use 1 thread(s). Using default cores configuration [2-2]
+2023-1-25 9h56m6s:Powersystem is not partitioned
+2023-3-23 12h45m9s:KMP_AFFINITY=explicit,proclist=[2-2],verbose
+2023-3-23 12h45m9s:EPHASOR_THREADS is not set -> ePHASORsim can use 1 thread(s). Using default cores configuration [2-2]
+2023-3-23 12h45m9s:Powersystem is not partitioned

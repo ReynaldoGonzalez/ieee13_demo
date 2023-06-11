@@ -1,0 +1,1 @@
+C:/OPAL-RT/RT-LAB/2021.3.4/python/python.exe -u "C:/OPAL-RT/RT-LAB/2021.3.4/common/python/opal/ephasorsim/eph_gui.py" --add --name="phasor08_IEEE13" --epname="System" --solver="phasor08_IEEE13"

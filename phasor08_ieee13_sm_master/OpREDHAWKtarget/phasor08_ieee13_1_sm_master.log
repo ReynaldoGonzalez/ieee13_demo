@@ -1,0 +1,4 @@
+Executing script C:\OPAL-RT\RT-LAB\2021.3.4\common\python\rtlab\global\host_subsys_postreset.py ... done
+ - Sm_master host postreset 1 of 1 [C:/OPAL-RT/RT-LAB/2021.3.4/python/python.exe -u "C:/OPAL-RT/RT-LAB/2021.3.4/common/python/opal/ephasorsim/eph_gui.py" --delete --name="phasor08_IEEE13" --epname="System" --solver="phasor08_IEEE13" --url=10.3.13.48:25257/resources/root]
+[phasor08_IEEE13] Removing simulation
+ - Sm_master host postreset 1 of 1 successful

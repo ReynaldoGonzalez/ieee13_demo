@@ -1,0 +1,168 @@
+Sm_master/OpComm/Receive/S-Function/port1
+/
+
+1
+F64
+17
+Sm_master/Subsystem/Sum/port1
+/
+
+2
+F64
+1
+Sm_master/Subsystem/Switch/port1
+/
+
+3
+F64
+3
+Sm_master/Subsystem2/Sum/port1
+/
+
+4
+F64
+1
+Sm_master/Subsystem2/Switch/port1
+/
+
+5
+F64
+2
+Sm_master/Inverse Time Overcurrent Relay/Delay To avoid algebraic loop/port1
+/
+
+6
+F64
+12
+Sm_master/Solver/port1
+/
+
+7
+F64
+12
+Sm_master/Solver/port2
+/
+
+8
+F64
+12
+Sm_master/Solver/port3
+/
+
+9
+F64
+12
+Sm_master/Solver/port4
+/
+
+10
+F64
+12
+Sm_master/Solver/port5
+/
+
+11
+F64
+2
+Sm_master/Solver/port6
+/
+
+12
+F64
+4
+Sm_master/Inverse Time Overcurrent Relay/Switch/port1
+/
+
+13
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/const 1/port1
+/
+
+14
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/Divide1/port1
+/
+
+15
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Switch/port1
+/
+
+16
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/Detected/port1
+/
+
+17
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/MATLAB Function/port1
+/
+
+18
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/Discrete-Time Integrator/port1
+/
+
+20
+F64
+12
+Sm_master/Subsystem2/Clock/port1
+/
+
+21
+F64
+1
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Data Type Conversion3/port1
+/
+
+22
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/To Hold/port1
+/
+
+23
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/sw_Q1/port1
+/
+
+24
+F64
+12
+Sm_master/Inverse Time Overcurrent Relay/51PH/SW/Data Type Conversion2/port1
+/
+
+25
+I8
+12
+Sm_master/Inverse Time Overcurrent Relay/Boolean/port1
+/
+
+26
+Boolean
+1
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/RESET/port1
+/
+
+27
+Boolean
+1
+Sm_master/Subsystem2/Relational Operator/port1
+/
+
+28
+Boolean
+1
+Sm_master/Inverse Time Overcurrent Relay/SR FLIPFLOP/To RESET/port1
+/
+
+29
+Boolean
+12

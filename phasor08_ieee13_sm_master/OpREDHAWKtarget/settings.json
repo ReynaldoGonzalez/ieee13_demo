@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"C:\\Users\\xjk374\\OPAL-RT\\RT-LABv2021.3_Workspace\\IEEE13_Demo\\models\\phasor08_IEEE13",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]

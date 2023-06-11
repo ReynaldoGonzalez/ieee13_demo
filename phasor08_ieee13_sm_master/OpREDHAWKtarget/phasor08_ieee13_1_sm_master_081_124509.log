@@ -1,0 +1,41 @@
+          model phasor08_ieee13_1_sm_master assigned to logical cpu 1
+          Model 'phasor08_ieee13_1_sm_master' compiled in RELEASE mode.
+          16 CPUs active on this Computer
+          OS version: Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+          libOpalR2020B.a : v2021.3.4.320 (build = undefined)
+          Monitoring is enabled
+          RECV: connection to host established
+          SEND: connection to host established
+           GlobalRoot::attach - Root already initialized
+          Display of standard output will be disabled
+           EPHASOR_LOG=(null)
+           EPHASOR_VALIDATORS=(null)
+           ----------------- Dynamic simulation only (without power-flow) -----------------
+           EPHASOR_NUM_POWERSYSTEM_NODES : 1000 -> 965 (your model uses 35 nodes)
+          SubSystem step size = 0.010000 sec. Status updated at every 1 local step.
+          XHP mode enabled on this CPU.
+          Synchronized with polling  software timer.
+          Real-time SingleTasking mode.
+          RT-LAB license ok. Unlimited time license.
+          Snapshot taken (opphasor08_ieee13_sm_master_0.snap).
+           [0]: PAUSE mode, IO set to pause value.
+          		Total of 0 Overrun detected.
+          		Thu Mar 23 12:45:10 2023
+
+          XHP mode enabled
+           [1]: RUN mode, IO set to run value.
+          		Synchronized step size = 10000 us.
+          		Thu Mar 23 12:45:58 2023
+
+          Main priority set to 99
+          XHP mode disabled
+           [5662]: Reset
+          		Total of 0 Overrun detected.
+          		Thu Mar 23 12:46:55 2023
+
+           ePHASORsim thread usage optimization was disabled.
+  -> Number of threads used during simulation: 1
+           EPHASOR_NUM_POWERSYSTEM_NODES : 965 -> 1000 (your model returned 35 nodes)
+           --------------------------------------------------------------------------------
+
+          Reset done

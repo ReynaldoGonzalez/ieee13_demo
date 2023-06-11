@@ -1,0 +1,29 @@
+[S-Function list]
+phasor08_ieee13_1_sm_master/Sm_master/Inverse Time Overcurrent Relay/51PH/MATLAB Function/ SFunction =0
+phasor08_ieee13_1_sm_master/Sm_master/OpComm/Receive/S-Function=0
+phasor08_ieee13_1_sm_master/Sm_master/Solver=1
+phasor08_ieee13_1_sm_master/Sm_master/rtlab_send_subsystem/Subsystem2/Send2/S-Function=0
+[S-Function parameters]
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P13=Max number of NR iterations
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P14=Power mismatch (max p.u.)
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P15= 1
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P16= 2
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P17= 3
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P18=Optimize number of threads (Windows only)
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P19=Use post-init script
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P2=Time-step (seconds)
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P20=Post-init script (*.py)
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P21=Turn on performance log
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P22=Performance log tag
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P3=
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P4=Number of partitions
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P5=C-API component folder
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P6=FMU component
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P7=Prependable CAPI String
+phasor08_ieee13_1_sm_master/Sm_master/Solver/P8=Prependable FMU String
+[S-Function files]
+phasor08_ieee13_1_sm_master/Sm_master/Inverse Time Overcurrent Relay/51PH/MATLAB Function/ SFunction =sf_sfun
+phasor08_ieee13_1_sm_master/Sm_master/Solver=OpIRTS
+[S-Function modules]
+phasor08_ieee13_1_sm_master/Sm_master/Inverse Time Overcurrent Relay/51PH/MATLAB Function/ SFunction =''
+phasor08_ieee13_1_sm_master/Sm_master/Solver=''

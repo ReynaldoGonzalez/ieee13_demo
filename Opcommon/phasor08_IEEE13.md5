@@ -1,0 +1,86 @@
+[GENERATION.REDHAWK.SETTINGS]
+CompilerVersion=Automatic
+PlatformDependent=yes
+RTLAB_Version=v2021.3.4.320undefined
+[INTERNAL]
+LAST_PLATFORM=4
+[SEPARATION.SETTINGS]
+CompilerVersion=AUTOMATIC
+MATLAB_VERSION=167
+PostBuildCmd=
+PreBuildCmd=
+RTLAB_Version=v2021.3.4.320undefined
+[SEPARATION]
+Opcommon\phasor08_IEEE13.subsys=exists
+Opcommon\phasor08_ieee13_1_sm_master.mdl=exists
+phasor08_IEEE13.mdl=c10062c6542d21b39034ba521f37a9c1@01/25/23 01:02:55
+phasor08_ieee13_2_sc_console.mdl=exists
+[GENERATION.REDHAWK]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tlc=649c42bccd471daa642662d96f043530@11/26/21 13:02:40
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\rtlab_rtmodel.tmf=4cfd2f851ee1021c3c1d859c979b59fa@11/26/21 13:02:40
+Opcommon\phasor08_IEEE13.param=881e532a62f3951275a7b8b30212b9ba@01/25/23 01:04:47
+Opcommon\phasor08_IEEE13.signal=d82b0d1f9232707106164b59f6722a2a@01/25/23 01:04:47
+Opcommon\phasor08_IEEE13.subsys=a3156c0fb0bfb0a50e30407dd3a5637e@01/25/23 01:04:11
+Opcommon\phasor08_ieee13_1_sm_master.mdl=fbb9bc45d4bc3384265622057089fbc3@01/25/23 01:04:07
+phasor08_ieee13_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\builtin_typeid_types.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\multiword_types.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.mk=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_data.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_offsets.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_private.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_types.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetInf.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetInf.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetNaN.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetNaN.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_defines.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_nonfinite.c=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_nonfinite.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtmodel.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtwtypes.h=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\settings.json=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\zero_crossing_types.h=exists
+[COMPILATION.REDHAWK]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2021.3.4\Simulink\rtw\c\common\model_main.c=2ead0f4278a98bfe58f646e3b20df16b@11/26/21 13:02:40
+phasor08_ieee13_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c=208d774e52fe33ae3d1683ffe79a350c@01/25/23 01:04:47
+phasor08_ieee13_sm_master\OpREDHAWKtarget\builtin_typeid_types.h=def612b1e23a4c143784887e7e034131@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\multiword_types.h=bf7b196f8d1c9faaa27de55c33e38456@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master=exists
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.c=fda7ef63ecdbe4de6217bf2d8e94bb2d@01/25/23 01:04:51
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.h=924644b18dceafd0615210336fac0a78@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master.mk=8959af5e1d9d17ba865b3403c4f29c87@01/25/23 01:04:41
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_data.c=bd82af0c355caf9719133a984cae6081@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_offsets.c=aadb2463a06cee7a19e7c449b60029e7@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_private.h=63858132bf783391bd19730bcf2756aa@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\phasor08_ieee13_1_sm_master_types.h=e04d1238bcf2d6d1a5ab4e693f85a655@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetInf.c=256d0abf4bff515f93a456831aa87ad4@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetInf.h=a120f861c22a4733a51cf18c86dffef4@01/25/23 01:04:38
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetNaN.c=c21dda3a66f71fea3e0a70ec8ceaa4c3@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtGetNaN.h=22aa634cdde3d8dc9c5d53a55dccc174@01/25/23 01:04:38
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_defines.h=7055affac97b275daf617aa429424ea4@01/25/23 01:04:38
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_nonfinite.c=c9ed040624c5d317914d03b420f732b1@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rt_nonfinite.h=fe8ab8747a436ce0c3bbc639596df157@01/25/23 01:04:38
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtmodel.h=1d92e8f3f58a9efa7b8e3316b0ce9b50@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\rtwtypes.h=21b78c6106ff413d42be5d1ea0408ecb@01/25/23 01:04:39
+phasor08_ieee13_sm_master\OpREDHAWKtarget\settings.json=705240bf17d55bb514bfb1477e425dc5@01/25/23 01:04:50
+phasor08_ieee13_sm_master\OpREDHAWKtarget\zero_crossing_types.h=ae5ea87e47fe96dc5e971cdf03c73e80@01/25/23 01:04:39
+[COMPILATION.REDHAWK.VOLATILE]
+phasor08_IEEE13_block.opal=09e699740689a6bfdb7f7b520e09f699@01/25/23 00:33:46
+phasor08_IEEE13_pinout.opal=ebae9223ab9efd1b4fd9a5480001cc47@01/25/23 00:33:46
+phasor08_IEEE13_solver.opal=d663539ee7d2f5aabeb3f44dbd33a56d@01/25/23 00:33:46
+[COMPILATION.REDHAWK.SETTINGS]
+CompilerVersion=Automatic
+DEBUG=0
+DevNodeIP=10.3.13.48
+DevNodeOSVersion=Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+EXT_CC_OPTS=
+EXT_LD_OPTS=
+EXT_LIB=
+EXT_LIBPATH=
+RTLAB_Version=v2021.3.4.320undefined
+TargetCompileCmd=
+USER_INCS=
+USER_SRCS=
